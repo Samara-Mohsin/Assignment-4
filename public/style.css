@@ -1,0 +1,205 @@
+
+.navbar{
+    background-color: #D32F2F !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart ,.fa-user-circle {
+    font-size: 32px !important;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 52px !important;
+    margin-right: 10px;
+    color:#D32F2F;
+}
+
+.fa-facebook-official,.fa-instagram,.fa-whatsapp,.fa-twitter{
+    font-size: 35px !important
+}
+h3{
+    color: #D32F2F;
+}
+.card1,.card2,.card3{
+    display: flex;
+    /* width: 30%; flex-wrap: wrap; nhi chala ispe then hamne width: 300px rakhi */
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+@media screen and (max-width: 700px){
+    .row{
+        width: 100%;
+
+    }
+}
+    
+  }
+  .NewArrivals{
+      margin-top: 50px;
+  }
+  .card{
+      width: 250px;
+      height:auto;
+      margin-bottom: 5px;
+      height: 350px !important;
+  }
+  .card-text{
+      font-weight: bold;
+  }
+  .btn-primary{
+      width: 100%;
+      background-color: #D32F2F !important;
+  }
+  .heading{
+      text-align: center;
+      font-weight: bold;
+      color:#D32F2F ;
+  }
+  .heading > h1{
+      text-shadow: 2px 2px 4px black;
+  }
+
+  .footer{
+      font-size: 25px;
+      width: 100%;
+      background-color: #D32F2F !important;
+      height: 100px;
+      margin-top: 25px;
+      margin-bottom:25px ;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+  }
+
+  .aboutus > img{
+      justify-content: center !important;
+      margin-right: 100px !important;
+
+  }
+ 
+  .form-group ,.btn-primary{
+
+      width: 80%;
+      margin-left: 100px;
+      
+      color:rgb(236, 232, 232) ;
+      font-weight: bold;
+  }
+  .btn-primary:hover{
+      background-color:#D32F2F !important ;
+      color: white !important;
+  }
+  .marque{
+      font-size: 35px;
+      border: tomato;
+      background-color:#D32F2F !important ;
+      color: white;
+  }
+
+
+  .card-text{
+      font-size: 20px;
+      justify-content: space-around
+
+  }
+
+  .card-title{
+      font-size: 30px !important;
+      text-align: center;
+      display: inline;
+      text-shadow: #D32F2F;
+  }
+
+
+  .email{
+      color:#D32F2F !important ;
+      font-weight: bold !important;
+      font-size: 15px;
+      margin-top: 20px !important;
+
+  }
+  .aboutuspage{
+      background-attachment: fixed;
+  }
+  .table{
+      width: auto;
+      height: auto;
+  }
+   h1,h2{
+      
+
+      color:#D32F2F;
+      font-weight: bold;
+
+  }
+
+ h4{
+     color:#D32F2F !important;
+ }
+h5{
+     color:#D32F2F ;
+     font-size: 1px !important;
+ }
+ .btn-dark{
+     margin-left: 20px;
+     margin-top: 10px;
+     background-color: #D32F2F !important;
+ }
+ .btn-dark:hover{
+     background-color: black !important;
+ }
+
+  
+.orderform{
+    border-style: solid;
+    width: auto;
+
+}
+.main{
+    border-style: dotted;
+    border-radius: 1cm;
+    border-color:#D32F2F ;
+    background-color: black;
+    color: white;
+}
+.center {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  @media screen and (max-width: 700px){
+      .content,main,.form{
+          width: 100%;
+      }
+  }
+  .content,.main{
+      font-size: 25px;
+  }
+  h5{
+      font-size: 10px;
+  }
+  .btn-danger{
+      display: inline;
+  }
